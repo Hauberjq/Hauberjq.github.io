@@ -5,3 +5,4 @@ dt        {font-weight:bolder;}
 em        {font-weight:bold;}
 figcaption  {font-size:small;}
 figure      {text-align:center;}
+.spaced-div {margin-top: 20px;padding: 6px;}
