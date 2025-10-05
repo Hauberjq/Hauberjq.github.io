@@ -1,0 +1,32 @@
+/*a:link    {COLOR:blue;/*FFF975;/*#0000DD;}*/
+/*a:visited {COLOR:#32095D;/*#5F 9E A0;}*/
+/*a:hover   {COLOR:#008080; text-decoration:underline;}
+/*a:active  {COLOR: #008080;}
+/*a         {text-decoration:none;}*/
+
+/*body      {margin:0;
+           padding:20px;
+           background: #F5F0F6;/*#407563;/*#FAFAC8;6B6054*/
+/*           font-family:sans-serif;*/
+/*           font-size:120%;
+           color:#0A0908;/*#E8F7E8;*/
+/*	  }*/
+h1        {font-size:200%;
+	   font-weight:bold;}
+h2        {font-size:160%;
+	   font-weight:bold;
+/*	   background-color:#2B4162;
+	   color:#FFFFFF;
+	   padding:1%;*/}
+h3        {font-size:60%,
+	   font-weight:bold;
+	   border-bottom:1px solid #0A0908;}
+h4        {font-size:40%,
+	   font-weight:bold;}
+dt        {font-weight:bold;}
+/*dd       {margin-bottom:1%;}*/
+em        {font-weight:bold;
+	   font-style:normal;}
+
+figcaption  {font-size:small;}
+figure      {text-align:center;}
