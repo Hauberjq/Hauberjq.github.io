@@ -58,3 +58,7 @@ figure {
 .epigraph cite {
   font-style: italic;
 }
+
+footer {
+  font-size: small;
+}
