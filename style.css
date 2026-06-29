@@ -6,19 +6,6 @@ em        {font-weight:bold;}
 figcaption  {font-size:small;}
 figure      {text-align:center;}
 
-.quote {
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-
-.quote p {
-  margin: 0;
-}
-
-.quote cite {
-  font-style: italic;
-}
-
 .alps {
   width: 40%;
   float: right;
