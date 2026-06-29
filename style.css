@@ -37,26 +37,13 @@ figure {
   text-align: center;
 }
 
-.epigraph {
-  max-width: 620px;
-  margin: 2em 0;
-  padding-left: 1.2em;
-  border-left: 2px solid #999;
-  font-style: italic;
-  line-height: 1.5;
+.quote {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-.epigraph p {
-  margin: 0 0 0.8em 0;
-}
-
-.epigraph footer {
-  font-size: 90%;
-  font-style: normal;
-}
-
-.epigraph cite {
-  font-style: italic;
+.quote p {
+  margin: 0;
 }
 
 footer {
