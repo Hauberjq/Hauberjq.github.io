@@ -1,41 +1,11 @@
-body {
-  max-width: 900px;
-  margin: 2em auto;
-  padding: 0 1.5em;
-  font-family: serif;
-  line-height: 1.45;
-}
-
-h1 {
-  font-size: 200%;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: 160%;
-  font-weight: bold;
-}
-
-h3 {
-  font-size: 130%;
-  font-weight: bold;
-}
-
-dt {
-  font-weight: bolder;
-}
-
-em {
-  font-style: italic;
-}
-
-figcaption {
-  font-size: small;
-}
-
-figure {
-  text-align: center;
-}
+```css
+h1        {font-size:200%;font-weight:bold;}
+h2        {font-size:160%;font-weight:bold;}
+h3        {font-size:130%;font-weight:bold;}
+dt        {font-weight:bolder;}
+em        {font-weight:bold;}
+figcaption  {font-size:small;}
+figure      {text-align:center;}
 
 .quote {
   margin-top: 2em;
@@ -46,6 +16,21 @@ figure {
   margin: 0;
 }
 
-footer {
-  font-size: small;
+.quote cite {
+  font-style: italic;
+}
+
+.alps {
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+  height: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .alps {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
 }
