@@ -1,7 +1,60 @@
-h1        {font-size:200%;font-weight:bold;}
-h2        {font-size:160%;font-weight:bold;}
-h3        {font-size:130%;font-weight:bold;}
-dt        {font-weight:bolder;}
-em        {font-weight:bold;}
-figcaption  {font-size:small;}
-figure      {text-align:center;}
+body {
+  max-width: 900px;
+  margin: 2em auto;
+  padding: 0 1.5em;
+  font-family: serif;
+  line-height: 1.45;
+}
+
+h1 {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 160%;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 130%;
+  font-weight: bold;
+}
+
+dt {
+  font-weight: bolder;
+}
+
+em {
+  font-style: italic;
+}
+
+figcaption {
+  font-size: small;
+}
+
+figure {
+  text-align: center;
+}
+
+.epigraph {
+  max-width: 620px;
+  margin: 2em 0;
+  padding-left: 1.2em;
+  border-left: 2px solid #999;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.epigraph p {
+  margin: 0 0 0.8em 0;
+}
+
+.epigraph footer {
+  font-size: 90%;
+  font-style: normal;
+}
+
+.epigraph cite {
+  font-style: italic;
+}
