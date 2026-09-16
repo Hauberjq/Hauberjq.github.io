@@ -33,27 +33,9 @@ body {
 
 /* ---------- Headings ---------- */
 
-h1 {
-  font-size: 2rem;
-  line-height: 1.2;
-  font-weight: 600;
-  margin: 0 0 0.5rem;
-}
-
-h2 {
-  font-size: 1.35rem;
-  line-height: 1.3;
-  font-weight: 600;
-  margin: 2.3rem 0 0.8rem;
-}
-
-h3 {
-  font-size: 1.08rem;
-  line-height: 1.3;
-  font-weight: 600;
-  margin: 1.7rem 0 0.7rem;
-}
-
+h1  {font-size: 200%;nfont-weight:bold;}
+h2  {font-size:160%;font-weight:bold;}
+h3  {font-size:130%;font-weight:bold;}
 
 /* ---------- Text ---------- */
 
