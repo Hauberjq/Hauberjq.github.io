@@ -29,59 +29,10 @@ h1  {font-size:200%;font-weight:bold;}
 h2  {font-size:160%;font-weight:bold;}
 h3  {font-size:130%;font-weight:bold;}
 
-/* ---------- Header / navigation ---------- */
-
-header {
-  margin-bottom: 1.8rem;
-}
-
-nav {
-  font-size: 0.95rem;
-  line-height: 1.8;
-}
-
-
-/* ---------- Rules ---------- */
-
-hr {
-  border: 0;
-  border-top: 1px solid #d8d8d8;
-  margin: 1.6rem 0;
-}
-
-
-/* ---------- Lists ---------- */
-
-dl {
-  margin: 0;
-}
-
-dt {
-  font-weight: 600;
-}
-
-dt:not(:first-child) {
-  margin-top: 1rem;
-}
-
-dd {
-  margin: 0.1rem 0 0;
-}
-
-
 /* ---------- Alps image ---------- */
 
-figure {
-  float: right;
-  width: 40%;
-  margin: 0 0 1.5rem 2rem;
-}
-
-.alps {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+figure {float: right; width: 40%; margin: 0 0 1.5rem 2rem;}
+.alps {display: block; width: 100%; height: auto;}
 
 
 /* ---------- Quote ---------- */
