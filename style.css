@@ -21,6 +21,7 @@ body {
 h1 {
   font-size: 200%;
   font-weight: bold;
+  margin-top: 0;
 }
 
 h2 {
@@ -80,6 +81,7 @@ footer p {
 
   h1 {
     font-size: 1.8rem;
+    margin-top: 0;
   }
 
   h2 {
