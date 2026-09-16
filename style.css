@@ -18,22 +18,21 @@ body {
 
 /* ---------- Headings ---------- */
 
-h1 {
-  font-size: 200%;
-  font-weight: bold;
-  margin-top: 0;
-}
+h1 {font-size: 200%;
+    font-weight: bold;
+    margin-top: 0;}
 
-h2 {
-  font-size: 160%;
-  font-weight: bold;
-}
+h2 {font-size: 160%;
+    font-weight: bold;}
 
-h3 {
-  font-size: 130%;
-  font-weight: bold;
-}
+h3 {font-size: 130%;
+    font-weight: bold;}
 
+/* ---------- Text ---------- */
+
+dt  {font-weight:bold;}
+em  {font-weight:bold;
+	   font-style:normal;}
 
 /* ---------- Alps image ---------- */
 
