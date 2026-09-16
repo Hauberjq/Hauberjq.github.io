@@ -1,22 +1,185 @@
-h1        {font-size:200%;font-weight:bold;}
-h2        {font-size:160%;font-weight:bold;}
-h3        {font-size:130%;font-weight:bold;}
-dt        {font-weight:bolder;}
-em        {font-weight:bold;}
-figcaption  {font-size:small;}
-figure      {text-align:center;}
-
-.alps {
-  width: 40%;
-  float: right;
-  margin-left: 30px;
-  height: auto;
-}
-
 @media screen and (max-width: 700px) {
   .alps {
     float: none;
     width: 100%;
     margin-left: 0;
+  }
+}
+
+/* ---------- General layout ---------- */
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 48px 28px 70px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.55;
+
+  color: #222;
+  background: white;
+}
+
+
+/* ---------- Headings ---------- */
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+}
+
+h2 {
+  font-size: 1.35rem;
+  line-height: 1.3;
+  font-weight: 600;
+  margin: 2.3rem 0 0.8rem;
+}
+
+h3 {
+  font-size: 1.08rem;
+  line-height: 1.3;
+  font-weight: 600;
+  margin: 1.7rem 0 0.7rem;
+}
+
+
+/* ---------- Text ---------- */
+
+p {
+  margin: 0 0 1rem;
+}
+
+a {
+  color: #005fa3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* ---------- Header / navigation ---------- */
+
+header {
+  margin-bottom: 1.8rem;
+}
+
+nav {
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+
+/* ---------- Rules ---------- */
+
+hr {
+  border: 0;
+  border-top: 1px solid #d8d8d8;
+  margin: 1.6rem 0;
+}
+
+
+/* ---------- Lists ---------- */
+
+dl {
+  margin: 0;
+}
+
+dt {
+  font-weight: 600;
+}
+
+dt:not(:first-child) {
+  margin-top: 1rem;
+}
+
+dd {
+  margin: 0.1rem 0 0;
+}
+
+
+/* ---------- Alps image ---------- */
+
+figure {
+  float: right;
+  width: 40%;
+  margin: 0 0 1.5rem 2rem;
+}
+
+.alps {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+/* ---------- Quote ---------- */
+
+#Quote {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+/* ---------- Footer ---------- */
+
+footer {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media screen and (max-width: 700px) {
+
+  body {
+    padding: 28px 20px 45px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.28rem;
+    margin-top: 2rem;
+  }
+
+  h3 {
+    font-size: 1.05rem;
+  }
+
+  figure {
+    float: none;
+    width: 100%;
+    margin: 0 0 1.5rem;
+  }
+
+  .alps {
+    width: 100%;
+  }
+
+  hr {
+    margin: 1.4rem 0;
   }
 }
