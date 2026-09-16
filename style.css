@@ -25,25 +25,9 @@ body {
 
 /* ---------- Headings ---------- */
 
-h1  {font-size:200%;nfont-weight:bold;}
+h1  {font-size:200%;font-weight:bold;}
 h2  {font-size:160%;font-weight:bold;}
 h3  {font-size:130%;font-weight:bold;}
-
-/* ---------- Text ---------- */
-
-p {
-  margin: 0 0 1rem;
-}
-
-a {
-  color: #005fa3;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 
 /* ---------- Header / navigation ---------- */
 
