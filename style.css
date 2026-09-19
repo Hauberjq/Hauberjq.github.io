@@ -68,6 +68,16 @@ footer p {
   margin-bottom: 0;
 }
 
+/* ---------- Seminar ---------- */
+
+.seminar-entry {
+  margin-bottom: 2.2rem;
+}
+
+.seminar-entry h3 {
+  margin-bottom: 0.5rem;
+}
+
 
 /* ---------- Mobile ---------- */
 
