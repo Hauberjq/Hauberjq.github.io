@@ -48,6 +48,20 @@ figure {
   height: auto;
 }
 
+/* ---------- Wendlregulation ---------- */
+
+figure {
+  float: right;
+  width: 40%;
+  margin: 0 0 1.5rem 2rem;
+}
+
+.Wendl {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 
 /* ---------- Quote ---------- */
 
