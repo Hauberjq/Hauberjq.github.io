@@ -70,12 +70,25 @@ footer p {
 
 /* ---------- Seminar ---------- */
 
-.seminar-entry {
-  margin-bottom: 2.2rem;
+.seminar-talk {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  column-gap: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
-.seminar-entry h3 {
-  margin-bottom: 0.5rem;
+.seminar-meta {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.seminar-content {
+  min-width: 0;
+}
+
+.seminar-title {
+  font-weight: bold;
+  margin: 0.3rem 0 0.8rem;
 }
 
 
