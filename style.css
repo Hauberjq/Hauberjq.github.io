@@ -138,7 +138,8 @@ footer p {
     font-size: 1.05rem;
   }
 
-  figure {
+  .alps-figure,
+  .seminar-figure {
     float: none;
     width: 100%;
     margin: 0 0 1.5rem;
