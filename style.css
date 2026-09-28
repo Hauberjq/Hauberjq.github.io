@@ -48,18 +48,26 @@ figure {
   height: auto;
 }
 
-/* ---------- Wendlregulation ---------- */
+/* ---------- Seminar figure ---------- */
 
-figure {
+.seminar-figure {
   float: right;
-  width: 40%;
+  width: 55%;
   margin: 0 0 1.5rem 2rem;
 }
 
-.Wendl {
+.seminar-figure img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.seminar-figure figcaption {
+  margin-top: 0.45rem;
+  font-size: 0.72rem;
+  line-height: 1.35;
+  color: #666;
+  text-align: right;
 }
 
 
