@@ -51,8 +51,9 @@ figure {
 /* ---------- Seminar figure ---------- */
 
 .seminar-figure {
-  float: right;
+  float: none;
   width: 55%;
+  max-width: 500px;
   margin: 0 0 1.5rem 2rem;
 }
 
@@ -67,7 +68,7 @@ figure {
   font-size: 0.72rem;
   line-height: 1.35;
   color: #666;
-  text-align: right;
+  text-align: center;
 }
 
 
