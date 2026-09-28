@@ -109,6 +109,7 @@ footer p {
 }
 
 .seminar-title {
+  display: block;
   font-weight: bold;
   margin: 0 0 0.3rem;
 }
