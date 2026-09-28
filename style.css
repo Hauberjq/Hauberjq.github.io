@@ -51,9 +51,8 @@ em  {font-weight:bold;
 /* ---------- Seminar figure ---------- */
 
 .seminar-figure {
-  float: none;
-  width: 55%;
-  max-width: 500px;
+  float: right;
+  width: 40%;
   margin: 0 0 1.5rem 2rem;
 }
 
@@ -115,12 +114,10 @@ footer p {
 }
 
 
-/* ---------- Mobile ---------- */
-
 @media screen and (max-width: 700px) {
 
   body {
-    padding: 10px 10px 10px;
+    padding: 10px;
     font-size: 16px;
   }
 
@@ -143,7 +140,12 @@ footer p {
     margin: 0 0 1.5rem;
   }
 
+  .seminar-talk {
+    grid-template-columns: 1fr;
+    row-gap: 0.7rem;
+  }
+
   hr {
-    margin: 1.0rem 0;
+    margin: 1rem 0;
   }
 }
